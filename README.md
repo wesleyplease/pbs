@@ -12,3 +12,12 @@ Preferential Bidding System Adaptation from Airline to One-to-One Education
     - Limited access for parents
     - Limited access for teachers
     - Full access to administration
+
+### Freewrite version of the Problem:
+
+We need a scheduling system for one-to-one classes - Necessity in schedule regularity and consistancy.
+
+The main issues with scheduling are that students and teachers both have scheduling CONSTRAINTS. Sometimes these constraints are simply weighted preference.  
+
+Another issue is teacher call outs. How an we prompt the admins suggestions of teachers to take over? - and given that we need to change the schedule due to call outs - how can we do this with minimal change to the overall schedule?
+
