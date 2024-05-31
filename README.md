@@ -8,6 +8,10 @@ freewrite wes:
 
 Each student would be schedule assessed in the algorithm 1 class at a time - this will 'thread' their schedule together. This way it is easy to keep track of the soft constraints. (how far apart their classes are every day, hours per week, etc. ) After laying one thread of classes for a student, the next thread would be lain as close to as possible the prior thread.   
 
+
+
+... if the algorithm works
 Once this is accomplished the work of developing the GUI comes in. Parents, Teachers, Students, Administrators, and Upper Mgmt. all require their own seperate types of profiles. 
 A vizualization of the schedule that everyone can see. Plus other vizualisation options for individulas to see their own personal schedules. 
 UNLESS OF COURSE we just want to make them plug it into teachworks after the algorithm runs its course but thats just lazzzzy. 
+It also may be nice to include other functionality that we can gather from teachers to make it special. 
