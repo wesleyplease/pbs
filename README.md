@@ -1,23 +1,7 @@
-# pbs
-Preferential Bidding System Adaptation from Airline to One-to-One Education
+## What is the main goal of functionality in this project? 
 
+freewrite wes: 1. Produce a schedule given a TABLE of teachers and their rules, students and their rules, a TABLE of classes. 2. When a class is scheduled, it must be scheduled in a recurring format. It must be scheduled with an end time in place. 3. There must be a single class manual override option for same day cancellations. (that makes no alterations to past or future scheduling.) 
 
-### To Do: 
-- Make a thorough list of what preferences/constraints teachers are allowed. 
-- Make a thorough list of what preferences/constraints students are allowed.
-- Make a thorough list of what preferences/constraints parents are allowed.
-- Make a thorough list of what preferences/constraints schools are allowed.
-- Make a list of functionality we must accomplish for this project
-    - Limited access for students
-    - Limited access for parents
-    - Limited access for teachers
-    - Full access to administration
+* Each student would be schedule assessed in the algorithm 1 class at a time - this will 'thread' their schedule together. This way it is easy to keep track of the soft constraints. (how far apart their classes are every day, hours per week, etc. ) After laying one thread of classes for a student, the next thread would be lain as close to as possible the prior thread.   
 
-### Freewrite version of the Problem:
-
-We need a scheduling system for one-to-one classes - Necessity in schedule regularity and consistancy.
-
-The main issues with scheduling are that students and teachers both have scheduling CONSTRAINTS. Sometimes these constraints are simply weighted preference.  
-
-Another issue is teacher call outs. How an we prompt the admins suggestions of teachers to take over? - and given that we need to change the schedule due to call outs - how can we do this with minimal change to the overall schedule?
-
+Once this is accomplished the work of developing the GUI comes in. Parents, Teachers, Students, Administrators, and Upper Mgmt. all require their own seperate types of profiles. 
